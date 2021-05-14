@@ -306,9 +306,12 @@ width: 150px;
   width: 100px;
 }
 
+.rightcol img {
+  width: 70%;
+}
 
-.rightcol  {
-  height: 80%
+.leftcol {
+  padding-top: 200px;
 }
 
 
