@@ -202,7 +202,7 @@ padding-bottom: 50px;
     margin-top: 50px;
    
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
   }
   
   .column {
@@ -219,7 +219,6 @@ padding-bottom: 50px;
     color: #5B5A5A;
     text-align: center;
     font-size: 27px;
-    
 
   }
 
@@ -292,40 +291,33 @@ width: 150px;
 
 /* 2nd colcum */
 
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  width: 100px;
+}
+
+
+.rightcol  {
+  height: 80%
+}
+
+
 .two-col2 {
-    height: 800px;
     display: flex;
-    justify-content: space-around
-    
+    justify-content: space-evenly
 }
 
-.green-column2 img {
-    width: 1000px;
-}
 
-.green-column1 img {
-    width: 500px;
-    
-}
-
-.blue-column2 {
-    height: 500px;
-    width: auto;
-    display: flex;
-    flex-direction: column;
-    padding-right: 200px;
-    padding-top: 100px;
-  }
-
-.blue-column2 h2 {
-    font-size: 40px;
-    color: #5B5A5A;
-}
-
-.blue-column2 p {
-    font-size: 30px;
-    color: #5B5A5A;
-}
 
 .two-col2 {
     padding-top: 50px;
@@ -334,15 +326,16 @@ margin-bottom: 200px;
     
 }
 .blue-column3 img {
-    width: 600px;
-    height: 700px;
-}
+  width: 535px;
+  height: 612px
+  
+  
+  }
 
 .green-column2 {
-    padding-left: 60px;
-    padding-top: 60px;
-    font-size: 30px;
+    font-size: 20px;
     color: #5B5A5A;
+    padding: 40px;
 }
 
 /* Contact page */
@@ -388,6 +381,7 @@ font-size: 15px;
 padding: 5px;
 }
 
+.na
 .logot   {
 font-size: 70%;
 text-align: center;
@@ -397,14 +391,14 @@ text-align: center;
 
  /* 3 Grid */
 .col {
-    padding: 0px;
-    height: 500px;
+margin-top: 10px
+;    font-size: small;
+    
 }
 
 .box {
-    float: none;
-    width: 100%;
-    height:fit-content
+    display: flex;
+    flex-direction:column;
 }
 .sanstext  {
     padding-top: 150px;
@@ -412,8 +406,27 @@ text-align: center;
 
 .grid-three {
     display: flex;
-    flex-direction: row;
-    width: 100%;
+    flex-direction:column
 }
 
+.grid-three .col {
+  width: fit-content;
+}
+
+.grid-three img {
+  width: 35%;
+  display:block;
+  margin:auto;
+  padding-top: 50px;
+}
+
+.logot {
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  font-size: 12px;
+  position: absolute;
+  top: 15%;
+  left: 18%;
+  text-shadow: 2px 2px grey
+}
 }
