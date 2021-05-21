@@ -11,8 +11,8 @@
     }
   
 main { 
-      padding-left: 5%;
-      padding-right:5%;
+      padding-left: 15%;
+      padding-right: 15%;
     
   }
 
@@ -364,19 +364,22 @@ margin-bottom: 200px;
 .heading {
     display: flex;
     justify-content: center;
-    margin: 50px;
+margin-left:auto;
+margin-right: auto;
 }
 
 .heading h2 {
     font-size: 30px;
     color: #5B5A5A;
+    padding-top: 50px;
 }
 
 .address {
-text-align: left;
-margin-left: 560px;
-padding-bottom: 50px;
+  padding-top: 60px;
+padding-bottom: 60px;
 font-size: 25px;
+margin-left: 27%;
+margin-right: auto;
 
 }
 
@@ -390,10 +393,13 @@ font-size: 25px;
 }
 
 .addimg {
-text-align: center;
-margin: auto;
     padding-bottom: 30px;
     padding-top: 30px;
+    text-align: center;
+}
+
+.wrap {
+  text-align: left;
 }
 
 
@@ -622,3 +628,127 @@ font-size: 17px;
 
 }
 
+/* about page form */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  
+}
+
+form label {
+  padding-top: 20px;
+
+}
+form input {
+  border-width: 0px;
+    height: 58px;
+background-color: #84909c
+}
+
+
+
+form :nth-child(10){
+font-size: 20px;
+padding-bottom: 120px;
+height: 160px;
+}
+::placeholder {
+  color: white;
+}
+
+label {
+  color: #5B5A5A;
+
+}
+
+#fbutton {
+  margin-top: 60px;
+  color: white;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+
+
+}
+
+
+ .close  { /* Close button */
+  font-size: 25px;
+  width:300px;
+  height: 50px;
+  color: white
+}
+
+
+
+/* Popup (background) */
+.popup {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* pop up Box */
+.popup-content {
+  background-color: #fefefe;
+  margin: 19% auto; 
+  border: 1px solid #888;
+  width: 60%; 
+  height: 400px;
+}
+
+
+  .blogo1 {
+    position: absolute;
+    width: 3.5%;
+    left: 28%;
+    top: 44%;
+
+}
+
+.merci h3 {
+  font-size: 30px;
+    color: #5C5A5A;
+}
+
+.merci {
+  text-align: center;
+  padding-top: 100px;
+  line-height: 2;
+  color: #5C5A5A;
+}
+
+.merci :nth-child() {
+font-weight: 400;
+font-size: 20px;
+  text-align: left;
+  padding-left: 200px; 
+  padding-top: 20px; 
+  padding-bottom: 40px;
+width: 650px
+
+}
+
+.fermerbox {
+  padding-top: 20px;
+  text-align: center;
+
+}
+
+h1 {
+  text-align: center;
+  font-weight: 500;
+  color: #5C5A5A;
+  font-size: 40px;
+}
